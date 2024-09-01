@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero';
 import Products from './components/Products/products';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import TopProducts from './components/TopProducts/TopProducts';
+
 import Banner from './components/Banner/Banner';
 import Subscribes from './components/subcribes/subscribes';
 import Testimoinal from './components/Testimoinal/Testimoinal';
@@ -34,7 +34,7 @@ const App = () => {
       <Navbar handleOrderPopup={handleOrderPopup} />
       <Hero handleOrderPopup={handleOrderPopup} />
       <Products />
-      <TopProducts handleOrderPopup={handleOrderPopup} />
+    
       <Banner/>
       <Subscribes/>
       <Products/>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../../assets/fruit/fruit4.png";
+import Img1 from '../../assets/Banner/fruit/fruit4.png'
 import Slider from 'react-slick';
 
 const TestimoinalData = [
